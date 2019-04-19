@@ -1,5 +1,5 @@
 .feedback-module {
-    background: url('../images/feedback-background.jpg') no-repeat bottom center fixed;
+    background: url('../images/feedback-background.jpg') no-repeat bottom center;
     padding-top: 40px;
     padding-bottom: 170px;
 }
@@ -74,5 +74,12 @@
 }
 
 .feedback-module-form-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 16px;
+}
+
+.feedback-module-form-submit {
+    margin-left: 20px;
 }

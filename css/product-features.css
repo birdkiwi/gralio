@@ -1,0 +1,96 @@
+.product-features {
+
+}
+
+.product-features-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.product-features-desc {
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.product-features-bottles {
+    float: left;
+    margin-left: -200px;
+    margin-top: -220px;
+}
+
+.product-features-item {
+    position: relative;
+    max-width: 500px;
+    line-height: 22px;
+}
+
+.product-features-item-1 {
+
+}
+
+.product-features-item-icon-1 {
+    position: absolute;
+    left: -100px;
+    top: 0;
+}
+
+.product-features-item-2 {
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.product-features-item-icon-2 {
+    position: absolute;
+    left: -90px;
+    top: 0;
+}
+
+.product-features-item-3 {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.product-features-item-icon-3 {
+    position: absolute;
+    left: -75px;
+    top: 0;
+}
+
+.product-features-item-4 {
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: -55px;
+}
+
+.product-features-item-icon-4 {
+    position: absolute;
+    left: -72px;
+    top: 0;
+}
+
+.product-features-item-5 {
+    max-width: 180px;
+    margin-top: 40px;
+    margin-left: -175px;
+}
+
+.product-features-item-icon-5 {
+    position: absolute;
+    left: -66px;
+    top: 0;
+}
+
+.product-features-item-6 {
+    max-width: 190px;
+    margin-top: 40px;
+    margin-left: -425px;
+    margin-bottom: 40px;
+}
+
+
+.product-features-item-icon-6 {
+    position: absolute;
+    left: -60px;
+    top: 0;
+}
