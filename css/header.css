@@ -1,0 +1,48 @@
+.main-header {
+
+}
+
+.main-header-absolute {
+    position: absolute;
+    width: 100%;
+}
+
+.main-header > .container {
+    max-width: 1670px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.main-header-logo {
+    margin-right: 20px;
+}
+
+.main-header-nav {
+    position: relative;
+    z-index: 10 ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header-nav-item {
+    display: inline-block;
+    padding: 7px 19px;
+}
+
+.main-header-nav-item > a,
+.main-header-nav-item > span {
+    color: #2e4638;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.main-header-nav-item > a:hover,
+.main-header-nav-item > span:hover,
+.main-header-nav-item-active > a,
+.main-header-nav-item-active > span {
+    color: #f49a28;
+    transition: all 200ms;
+}

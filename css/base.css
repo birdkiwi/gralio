@@ -1,0 +1,34 @@
+body {
+    color: #69797d;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #00665a;
+    transition: color 200ms;
+}
+
+a:hover,
+a:focus {
+    color: #f49a28;
+    transition: color 200ms;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-green {
+    color: #00665a;
+}
+
+.text-yellow {
+    color: #f49a28;
+}

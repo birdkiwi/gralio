@@ -1,0 +1,78 @@
+.feedback-module {
+    background: url('../images/feedback-background.jpg') no-repeat bottom center fixed;
+    padding-top: 40px;
+    padding-bottom: 170px;
+}
+
+.feedback-module > .container {
+
+}
+
+.feedback-module-form {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.feedback-module-form::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(197, 234, 253, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.feedback-module-form-content {
+    position: relative;
+    z-index: 1;
+}
+
+.feedback-module-form-title {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.feedback-module-form-input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #69797d;
+    border-radius: 4px;
+    padding: 15px 20px;
+    background: transparent;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: all 200ms;
+}
+
+.feedback-module-form-textarea {
+    border: 1px solid #69797d;
+    border-radius: 4px;
+    padding: 7px 15px;
+    background: transparent;
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: all 200ms;
+}
+
+.feedback-module-form-input:focus,
+.feedback-module-form-textarea:focus {
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 200ms;
+}
+
+.feedback-module-form-desc {
+    font-size: 16px;
+}

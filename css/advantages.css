@@ -1,0 +1,26 @@
+
+.advantages-module {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.advantages-module-row {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.advantages-module-item {
+    flex: 1 0 20%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.advantages-module-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.origin-module {
+    position: relative;
+    top: -90px;
+    z-index: -1;
+    background: url("../images/map.webp") no-repeat center 100%;
+    padding-top: 200px;
+    line-height: 19px;
+}
+
+.origin-module-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

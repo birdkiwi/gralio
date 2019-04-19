@@ -1,0 +1,35 @@
+.main-hero {
+    background: url("../images/header-background.png.webp") no-repeat center;
+    background-size: cover;
+}
+
+.main-hero > .container {
+    position: relative;
+    max-width: 1670px;
+    padding-top: 150px;
+}
+
+.main-hero-logotype {
+    position: absolute;
+    top: 340px;
+    text-align: center;
+}
+
+.main-hero-bottles {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.main-hero-bottles-img {
+    position: relative;
+    left: 160px;
+}
+
+.main-hero-desc {
+    font-family: Muller, Verdana, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}

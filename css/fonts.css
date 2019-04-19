@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Muller;
+    src: url(../fonts/muller/muller_bold-webfont.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Muller;
+    src: url(../fonts/muller/muller_regular-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.ff-muller {
+    font-family: Muller, Verdana, sans-serif
+}
+
+.ff-roboto {
+    font-family: Roboto, Arial, sans-serif;
+}
