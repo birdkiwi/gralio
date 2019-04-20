@@ -9,7 +9,7 @@
     margin-bottom: 150px;
 }
 
-.product-salad > .container {
+.product-salad > .main-container {
     display: flex;
     align-items: flex-start;
 }

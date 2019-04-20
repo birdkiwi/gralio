@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.main-header > .container {
+.main-header > .main-container {
     max-width: 1670px;
     display: flex;
     align-items: flex-start;
@@ -16,6 +16,13 @@
 
 .main-header-logo {
     margin-right: 20px;
+}
+
+@media (max-width: 1140px) {
+    .main-header-logo {
+        width: 120px;
+        min-width: 90px;
+    }
 }
 
 .main-header-nav {
@@ -28,15 +35,23 @@
 
 .main-header-nav-item {
     display: inline-block;
-    padding: 7px 19px;
 }
 
 .main-header-nav-item > a,
 .main-header-nav-item > span {
+    display: inline-block;
+    padding: 7px 19px;
     color: #2e4638;
     font-size: 16px;
     text-decoration: none;
     transition: all 200ms;
+}
+
+@media (max-width: 600px) {
+    .main-header-nav-item > a,
+    .main-header-nav-item > span {
+        padding: 7px 10px;
+    }
 }
 
 .main-header-nav-item > a:hover,

@@ -2,8 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=640">
     <title>Gralio — подсолнечное масло из солнечного Алтая</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet">
@@ -12,7 +11,7 @@
 </head>
 <body>
 <header class="main-header main-header-absolute">
-    <div class="container">
+    <div class="main-container">
         <a href="#" class="main-header-logo">
             <img src="images/logo-green.svg" alt="Gralio Extra Virgin" width="200">
         </a>
@@ -33,12 +32,20 @@
     </div>
 </header>
 <section class="main-hero">
-    <div class="container">
+    <div class="main-container">
         <div class="main-hero-logotype">
-            <img src="images/header-logotype.webp" alt="Gralio">
+            <picture>
+                <source type="image/webp" srcset="images/header-logotype.webp">
+                <source type="image/png" srcset="images/header-logotype.png">
+                <img src="images/header-logotype.png" alt="Gralio">
+            </picture>
         </div>
         <div class="main-hero-bottles">
-            <img src="images/header-bottles.webp" class="main-hero-bottles-img" alt="Bottles">
+            <picture>
+                <source type="image/webp" srcset="images/header-bottles.webp">
+                <source type="image/png" srcset="images/header-bottles.png">
+                <img src="images/header-bottles.png" alt="Gralio">
+            </picture>
         </div>
         <div class="main-hero-desc">
             Новый бренд подсолнечного масла премиум качества
@@ -48,9 +55,9 @@
     </div>
 </section>
 <section class="origin-module">
-    <div class="container">
+    <div class="main-container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="origin-module-title">
                     Происхождение
                 </div>
@@ -68,6 +75,9 @@
                     натуральный эко-продукт сегмента «здорового питания».
                 </p>
             </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="origin-module-map"></div>
+            </div>
         </div>
 
         <div class="sunflower-seed">
@@ -75,7 +85,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="origin-module-title">
                     Технология производства
                 </div>
@@ -89,7 +99,7 @@
                     свойства и полезные качества семян подсолнечника.
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="origin-module-title">
                     &nbsp;
                 </div>
@@ -111,7 +121,7 @@
 </section>
 
 <section class="product-salad">
-    <div class="container">
+    <div class="main-container">
         <div class="product-salad-content">
             <div class="product-salad-title">
                 <img src="images/gralio-logotype-white.svg" alt="GRALIO" width="625">
@@ -140,14 +150,14 @@
 </section>
 
 <section class="product-features">
-    <div class="container">
+    <div class="main-container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="product-features-bottles">
                     <img src="images/bottles-with-seeds.webp" alt="Gralio масло подсолнечное">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
                 <div class="product-features-title">
                     Полезные свойства
                 </div>
@@ -246,7 +256,7 @@
 <hr class="hr">
 
 <section class="advantages-module">
-    <div class="container">
+    <div class="main-container">
         <div class="advantages-module-row">
             <div class="advantages-module-item">
                 <div class="advantages-module-item-icon">
@@ -297,7 +307,7 @@
 </section>
 
 <section class="feedback-module">
-    <div class="container">
+    <div class="main-container">
         <form class="feedback-module-form">
             <div class="feedback-module-form-content">
                 <div class="feedback-module-form-title">
@@ -333,7 +343,7 @@
 </section>
 
 <footer class="main-footer">
-    <div class="container">
+    <div class="main-container">
         <a href="#" class="main-footer-logo">
             <img src="images/logo-gray.svg" alt="Gralio Extra Virgin" width="154">
         </a>
@@ -353,16 +363,6 @@
             </li>
         </ul>
 
-        <div class="main-footer-contacts">
-            <a href="tel:+79635723030" class="main-footer-contacts-phone">
-                8 963 572-30-30
-            </a>
-            <br>
-            <a href="mailto:gralio.oil@mail.ru" class="main-footer-contacts-email">
-                gralio.oil@mail.ru
-            </a>
-        </div>
-
         <div class="main-footer-address">
             <p>
                 <a href="#">
@@ -376,6 +376,16 @@
                     с. Родино, пер. Южный, 1
                 </a>
             </p>
+        </div>
+
+        <div class="main-footer-contacts">
+            <a href="tel:+79635723030" class="main-footer-contacts-phone">
+                8 963 572-30-30
+            </a>
+            <br>
+            <a href="mailto:gralio.oil@mail.ru" class="main-footer-contacts-email">
+                gralio.oil@mail.ru
+            </a>
         </div>
 
         <div class="main-footer-socials">
