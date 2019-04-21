@@ -2,7 +2,7 @@
     position: relative;
     top: -90px;
     z-index: -1;
-    background: url("../images/map.webp") no-repeat center 100%;
+    overflow-x: hidden;
     padding-top: 200px;
     line-height: 22px;
 }
@@ -11,4 +11,22 @@
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.origin-module-map {
+    position: relative;
+    background: url("../images/altai-sunflower.webp") no-repeat center;
+    width: 265px;
+    height: 246px;
+}
+
+.origin-module-map::before {
+    content: '';
+    position: absolute;
+    top: -758px;
+    left: -1017px;
+    width: 1920px;
+    height: 1114px;
+    z-index: -1;
+    background: url("../images/map.webp") no-repeat center 100%;
 }
