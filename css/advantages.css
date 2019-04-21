@@ -18,9 +18,24 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 700px) {
+    .advantages-module-item {
+        font-size: 12px;
+    }
+}
+
 .advantages-module-item-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
+}
+
+@media (max-width: 700px) {
+    .advantages-module-item-icon {
+        max-width: 120px;
+        height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

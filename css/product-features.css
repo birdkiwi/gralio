@@ -2,6 +2,21 @@
 
 }
 
+@media (max-width: 1000px) {
+    .product-features {
+        margin-bottom: 30px;
+    }
+}
+
+.product-features > .main-container {
+    position: relative;
+}
+
+.product-features > .main-container > .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 .product-features-title {
     font-size: 26px;
     font-weight: bold;
@@ -19,10 +34,43 @@
     margin-top: -220px;
 }
 
+@media (max-width: 48em) {
+    .product-features-bottles {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .product-features-bottles::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.80);
+    }
+}
+
+.product-features-bottles-img {
+
+}
+
+@media (max-width: 48em) {
+    .product-features-bottles-img {
+        width: 320px;
+    }
+}
+
 .product-features-item {
     position: relative;
     max-width: 500px;
     line-height: 22px;
+}
+
+.product-features-item-icon {
+
 }
 
 .product-features-item-1 {
@@ -93,4 +141,31 @@
     position: absolute;
     left: -60px;
     top: 0;
+}
+
+.product-features-item-icon-img {
+
+}
+
+@media (max-width: 1000px) {
+    .product-features-item-icon {
+        left: -80px;
+    }
+
+    .product-features-item-icon-img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .product-features-item {
+        left: 0;
+        top: 0;
+        margin-left: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: initial;
+        min-height: 60px;
+    }
 }

@@ -1,8 +1,13 @@
-
 .main-footer {
     background-color: #e3e3e3;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+@media (max-width: 1000px) {
+    .main-footer {
+        padding-bottom: 0;
+    }
 }
 
 .main-footer > .main-container {
