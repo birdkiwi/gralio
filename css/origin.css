@@ -15,9 +15,13 @@
 
 .origin-module-map {
     position: relative;
-    background: url("../images/altai-sunflower.webp") no-repeat center;
+    background: url("../images/altai-sunflower.png") no-repeat center;
     width: 265px;
     height: 246px;
+}
+
+html.webp .origin-module-map {
+    background-image: url("../images/altai-sunflower.webp");
 }
 
 .origin-module-map::before {
@@ -28,5 +32,9 @@
     width: 1920px;
     height: 1114px;
     z-index: -1;
-    background: url("../images/map.webp") no-repeat center 100%;
+    background: url("../images/map.png") no-repeat center 100%;
+}
+
+html.webp .origin-module-map::before {
+    background-image: url("../images/map.webp");
 }

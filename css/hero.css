@@ -1,6 +1,10 @@
 .main-hero {
-    background: url("../images/header-background.png.webp") no-repeat center;
+    background: url("../images/header-background.jpg") no-repeat center;
     background-size: cover;
+}
+
+html.webp .main-hero {
+    background-image: url("../images/header-background.webp");
 }
 
 .main-hero > .main-container {
