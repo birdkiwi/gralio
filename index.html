@@ -116,6 +116,18 @@
                 <source type="image/png" srcset="images/anim-sunflower-seed-4.png">
                 <img src="images/anim-sunflower-seed-4.png" class="sunflower-seed-step sunflower-seed-step-4" alt="">
             </picture>
+
+            <picture>
+                <source type="image/webp" srcset="images/anim-sunflower-seed-5.webp">
+                <source type="image/png" srcset="images/anim-sunflower-seed-5.png">
+                <img src="images/anim-sunflower-seed-5.png" class="sunflower-seed-step sunflower-seed-step-5" alt="">
+            </picture>
+
+            <picture>
+                <source type="image/webp" srcset="images/anim-sunflower-seed-6.webp">
+                <source type="image/png" srcset="images/anim-sunflower-seed-6.png">
+                <img src="images/anim-sunflower-seed-6.png" class="sunflower-seed-step sunflower-seed-step-6" alt="">
+            </picture>
         </div>
 
         <div class="row">
@@ -179,10 +191,10 @@
                 <picture>
                     <source type="image/webp" srcset="images/salad-plate.webp">
                     <source type="image/png" srcset="images/salad-plate.png">
-                    <img src="images/salad-plate.png" class="product-salad-plate-img" alt="Салат">
+                    <img src="images/salad-plate.png" data-jarallax-element="0 10" class="product-salad-plate-img" alt="Салат">
                 </picture>
 
-                <img src="images/stamp-cold-pressed.svg" class="product-salad-plate-stamp" alt="Premium Quality | Cold Pressed">
+                <img src="images/stamp-cold-pressed.svg" data-jarallax-element="0 10" class="product-salad-plate-stamp" alt="Premium Quality | Cold Pressed">
             </div>
         </div>
     </div>
@@ -193,11 +205,13 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <div class="product-features-bottles">
-                    <picture>
-                        <source type="image/webp" srcset="images/bottles-with-seeds.webp">
-                        <source type="image/png" srcset="images/bottles-with-seeds.png">
-                        <img src="images/bottles-with-seeds.png" class="product-features-bottles-img" alt="Gralio масло подсолнечное">
-                    </picture>
+                    <div data-jarallax-element="-100">
+                        <picture class="jarallax-img">
+                            <source type="image/webp" srcset="images/bottles-with-seeds.webp">
+                            <source type="image/png" srcset="images/bottles-with-seeds.png">
+                            <img src="images/bottles-with-seeds.png" class="product-features-bottles-img" alt="Gralio масло подсолнечное">
+                        </picture>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6">
@@ -450,6 +464,8 @@
     </div>
 </footer>
 <script src="node_modules/scrolltrigger-classes/ScrollTrigger.min.js"></script>
+<script src="node_modules/jarallax/dist/jarallax.min.js"></script>
+<script src="node_modules/jarallax/dist/jarallax-element.min.js"></script>
 <script src="js/webp-check.js"></script>
 <script src="js/scripts.js"></script>
 </body>

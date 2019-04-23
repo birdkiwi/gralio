@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function(){
     var trigger = new ScrollTrigger({
         toggle: {
-            visible: 'invisible',
-            hidden: 'visible'
+            visible: 'visible',
+            hidden: 'invisible'
         },
         offset: {
             x: 0,
             y: 0
         },
-        addHeight: true,
-        once: false
+        addHeight: false,
+        once: true
     }, document.body, window);
 });

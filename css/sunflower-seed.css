@@ -5,6 +5,7 @@
     height: 601px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 
 .sunflower-seed.invisible {
@@ -38,33 +39,48 @@
 
 .sunflower-seed-step {
     position: absolute;
-    left: 320px;
-    top: 80px;
+    left: 270px;
+    top: 20px;
     opacity: 0;
+    width: 400px;
+    transform: rotate(30deg);
     transition: all 500ms;
 }
 
 .sunflower-seed.visible .sunflower-seed-step-1 {
-    animation: seed-1 1s;
+    animation: seed-next 1s;
 }
 
 .sunflower-seed.visible .sunflower-seed-step-2 {
-    animation: seed-2 1s;
-    animation-delay: 0.75s;
+    animation: seed-next 1s;
+    animation-delay: 0.5s;
 }
 
 .sunflower-seed.visible .sunflower-seed-step-3 {
-    animation: seed-3 1s;
-    animation-delay: 1.5s;
+    animation: seed-next 1s;
+    animation-delay: 1s;
 }
 
 .sunflower-seed.visible .sunflower-seed-step-4 {
-    animation: seed-4 1s;
-    animation-delay: 2.25s;
+    animation: seed-next 1s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 
-@keyframes seed-1 {
+.sunflower-seed.visible .sunflower-seed-step-5 {
+    animation: seed-next 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.sunflower-seed.visible .sunflower-seed-step-6 {
+    animation: seed-last 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes seed-next {
     0% {
         opacity: 0;
     }
@@ -76,31 +92,7 @@
     }
 }
 
-@keyframes seed-2 {
-    0% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes seed-3 {
-    0% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes seed-4 {
+@keyframes seed-last {
     0% {
         opacity: 0;
     }
