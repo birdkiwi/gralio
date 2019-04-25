@@ -31,7 +31,7 @@
 .product-features-bottles {
     float: left;
     margin-left: -200px;
-    margin-top: -220px;
+    margin-top: -200px;
 }
 
 @media (max-width: 48em) {
@@ -167,5 +167,17 @@
         margin-bottom: 0;
         max-width: initial;
         min-height: 60px;
+    }
+}
+
+.product-features-leaf {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 1000px) {
+    .product-features-leaf {
+        display: none;
     }
 }

@@ -1,9 +1,7 @@
 .origin-module {
-    position: relative;
-    top: -90px;
-    z-index: -1;
     overflow-x: hidden;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     line-height: 22px;
 }
 

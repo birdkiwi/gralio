@@ -114,8 +114,8 @@
 
 .product-salad-plate-stamp {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 52%;
+    left: -30px;
     width: 130px;
     transform: translateY(40px) rotate(30deg);
 }
@@ -123,5 +123,6 @@
 @media (max-width: 1460px) {
     .product-salad-plate-stamp {
         width: 80px;
+        left: -10px;
     }
 }
