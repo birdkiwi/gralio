@@ -4,6 +4,7 @@
 
 .main-header-absolute {
     position: absolute;
+    z-index: 1;
     width: 100%;
 }
 
