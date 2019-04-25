@@ -44,9 +44,14 @@
         margin-top: 0;
     }
 
+    .product-features-bottles div[data-jarallax-element] {
+        transform: none !important;
+    }
+
     .product-features-bottles::before {
         content: '';
         position: absolute;
+        z-index: 1;
         width: 100%;
         height: 100%;
         background: rgba(255, 255, 255, 0.80);
