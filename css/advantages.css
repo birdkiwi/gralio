@@ -24,6 +24,12 @@
     }
 }
 
+@media (max-width: 599px) {
+    .advantages-module-item {
+        flex-basis: 50%;
+    }
+}
+
 .advantages-module-item-icon {
     display: flex;
     align-items: center;

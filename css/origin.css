@@ -5,10 +5,30 @@
     line-height: 22px;
 }
 
+@media (max-width: 991px) {
+    .origin-module {
+        padding-top: 25px;
+    }
+}
+
 .origin-module-title {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .origin-module-title {
+        margin-bottom: 4px;
+    }
+
+    .origin-module-title-3 {
+        display: none;
+    }
+
+    .origin-module-column-2 > p {
+        margin-top: 0;
+    }
 }
 
 .origin-module-map {

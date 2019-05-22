@@ -5,3 +5,9 @@
     margin-right: auto;
     margin-top: 80px;
 }
+
+@media (max-width: 991px) {
+    .sunflower-seed {
+        margin-bottom: 10px;
+    }
+}

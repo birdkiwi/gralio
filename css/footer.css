@@ -75,7 +75,9 @@
 }
 
 .main-footer-menu-item > a:hover,
+.main-footer-menu-item > a:focus,
 .main-footer-menu-item > span:hover,
+.main-footer-menu-item > span:focus,
 .main-footer-menu-item-active > a,
 .main-footer-menu-item-active > span {
     color: #f49a28;

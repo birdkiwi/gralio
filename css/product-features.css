@@ -23,6 +23,12 @@
     margin-bottom: 35px;
 }
 
+@media (max-width: 991px) {
+    .product-features-title {
+        margin-bottom: 4px;
+    }
+}
+
 .product-features-desc {
     line-height: 22px;
     margin-bottom: 40px;

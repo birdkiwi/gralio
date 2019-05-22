@@ -56,7 +56,9 @@
 }
 
 .main-header-nav-item > a:hover,
+.main-header-nav-item > a:focus,
 .main-header-nav-item > span:hover,
+.main-header-nav-item > span:focus,
 .main-header-nav-item-active > a,
 .main-header-nav-item-active > span {
     color: #f49a28;
